@@ -1,0 +1,143 @@
+/* Global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.homepage-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-family: 'PT Sans', sans-serif;
+  background-image: url("https://wallpaperaccess.com/full/874.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  row-gap: 0.15rem;
+}
+
+#form-toggle {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+#form-toggle button {
+  width: 10%;
+  padding: 0.5rem;
+  border-radius: 2.5%;
+  border: 0.125rem solid black;
+  outline: none;
+  background-color: #ae7c7cdb;
+}
+
+#form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  margin-top: 3rem;
+  background-color: #e3cbbe;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  width: 30%;
+  height: 70vh;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0rem 0.5rem 0.5rem #644c48b3;
+}
+
+.form-container h3 {
+  text-align: right;
+  margin-bottom: 2.5rem;
+}
+
+.home-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.home-form .input-container {
+  display: flex;
+  width: 100%;
+}
+
+.home-form .input-container .icon {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.home-form input {
+  padding: 0.5rem;
+  background-color: #e3cbbe;
+  outline: none;
+  border: none;
+  border-bottom: 0.125rem solid lightseagreen !important;
+  width: 100%;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-footer a {
+  width: 50%;
+  text-align: right;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.form-checkbox {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+#full-width-checkbox {
+  width: 100%;
+}
+
+.form-checkbox input {
+  width: 10%;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 2.5%;
+  border: none;
+  outline: none;
+  margin-top: 2.5rem;
+}
+
+.form-btn {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 2.5%;
+  border: none;
+  outline: none;
+  margin-top: 2.5rem;
+  background-color: #ae7c7cdb;
+}
